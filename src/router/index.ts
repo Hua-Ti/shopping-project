@@ -33,6 +33,12 @@ const router = createRouter({
       path: '/mine',
       name: 'mine',
       component: () => import('../views/MineView.vue')
+    },
+    {
+      // 搜索页面
+      path: '/search',
+      name: 'search',
+      component: () => import('../views/Search/SearchView.vue')
     }
   ]
 })
