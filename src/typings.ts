@@ -1,24 +1,16 @@
 // 首页导航 （数组（字符串））
 export interface HomeTopNav {
-    data: Array<homeModuleNav>
-}
-// export interface homeModuleNav {
-//     image: String
-//     sort: Number
-//     _system_record_entry_id: Number
-//     link: String
-//     _material_end_time: Number
-//     title: String
-//     titleColor: String
-//     description?:String
-//     acm: String
-//     h5Link: String
-//     material_start_time: Number
-// }
-export interface homeModuleNav {
     image: String
+    sort: Number
     _system_record_entry_id: Number
+    link: String
+    // _material_end_time: Number
     title: String
+    titleColor: String
+    // description?:String
+    // acm: String
+    h5Link: String
+    // material_start_time: Number
 }
 
 // 直播分类
@@ -41,6 +33,7 @@ export interface LiveSortTabs {
     active: Boolean
     platform: Number
 }
+<<<<<<< HEAD
 //直播分类项具体数据
 export interface LiveData {
     data: {
@@ -74,3 +67,22 @@ export interface CommentsList {
     uid: string
     avatar: string
 }
+=======
+
+// 首页限时快抢
+export interface gettimeRob {
+    timestamp: number
+    _system_record_entry_id: string
+    tagTitle: string
+    link: string
+    title: string
+    _material_start_time: number
+    countdown: number
+    w: number
+    backgroundImage: string
+    _material_end_time: number
+    acm: string
+    categoryId?: number
+
+}
+>>>>>>> 0b353613527dc5c491c5f5b8010ee7c501ae3f56
