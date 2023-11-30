@@ -12,6 +12,7 @@ import { getHomeModuleRow } from '../apis/homes'
 import { type homeModuleNav } from '../typings'
 
 const homeNav = ref<Array<homeModuleNav>>([])
+console.log(homeNav)
 
 onMounted(async () => {
   //首页导航
